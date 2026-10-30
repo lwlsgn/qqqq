@@ -3,9 +3,6 @@
 
 # In[ ]:
 
-
-get_ipython().system('pip install roboflow')
-
 from roboflow import Roboflow
 rf = Roboflow(api_key="YnpMrUPzqvCFRBQ1q51g")
 project = rf.workspace("-irjog").project("box-form-crrection")
